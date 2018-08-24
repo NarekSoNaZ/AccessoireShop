@@ -12,10 +12,14 @@ INSERT INTO `shops2` (store, item, price) VALUES
 	('narekshop','grip',30),
 	('narekshop','flashlight',30),
 	('narekshop','silencieux',15)
+	('narekshop','clip',15)
 ;
 
 INSERT INTO `items`(`name`, `label`, `limit`, `rare`, `can_remove`) VALUES 
 ('yusuf', 'Skin de luxe', -1, 0, 1),
 ('grip', 'Poignée', -1, 0, 1),
 ('flashlight', 'Lampe', -1, 0, 1),
-('silencieux', 'Silencieux', -1, 0, 1);
+('silencieux', 'Silencieux', -1, 0, 1)
+('clip','Chargeur', 2, 0, 1);
+
+
